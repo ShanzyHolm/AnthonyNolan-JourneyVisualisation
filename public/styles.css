@@ -14,8 +14,29 @@ body {
   display: flex;
 }
 
+.button {
+  font-family: "Gotham Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gotham Light"), url("GothamLight.woff") format("woff");
+}
+
 .App {
   margin-top: 10rem;
-  font-family: sans-serif;
   text-align: center;
+  font-family: "Gotham Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gotham Light"), url("GothamLight.woff") format("woff");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gotham Light"), url("GothamLight.woff") format("woff");
 }
