@@ -4,8 +4,12 @@ body {
   text-align: center;
 }
 
-button {
+.column {
+  flex: 50%;
+}
 
+.row {
+  display: flex;
 }
 
 .App {
