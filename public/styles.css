@@ -6,6 +6,7 @@ body {
 
 .column {
   flex: 50%;
+  border: white;
 }
 
 .row {
@@ -13,8 +14,7 @@ body {
 }
 
 .App {
-  margin-top: 10rem; 
+  margin-top: 10rem;
   font-family: sans-serif;
   text-align: center;
-
 }
